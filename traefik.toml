@@ -3,7 +3,7 @@
 ################################################################
 
 # Only route traffic tagged external
-constraints = ["tag==internal"]
+constraints = ["tag==internal-default"]
 
 # Accept invalid SSL certificate for backends (Needed for ubnt)
 insecureSkipVerify = true
